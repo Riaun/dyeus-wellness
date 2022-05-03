@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400&display=swap');
+
+
+.wellness {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:  #DCE9E9;
+    box-sizing: border-box;
+}
+
+.wellness__subheading {
+    margin-top: 39px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #1B1B50;
+    align-self: flex-start;
+}
+
+.wellness__bigpic {
+    font-family: 'Lora', sans-serif;
+    margin-top: 32px;
+    line-height: 40px;
+    color: #000000;
+    align-self: flex-start;
+}
+
+.wellness__text {
+    margin-top: 38px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 179%;
+    z-index: 1;
+}
+
+.wellness__button {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 45px;
+    margin-top: 28px;
+    background: linear-gradient(297.28deg, #F66E6E 67.01%, rgba(246, 110, 110, 0) 123.71%);
+    filter: drop-shadow(0px 2px 6px rgba(255, 22, 64, 0.33));
+    border-radius: 70px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.wellness__text-tag {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    z-index: 1;
+}
+
+.wellness__image {
+    background: url('/public/assets/icons/rose.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -210px;
+    position: relative;
+    width: 100vw;
+    height: 562px;
+    margin-bottom: -210px;
+}
+
+.wellness__img {
+    width: 100vw;
+    object-fit: contain;
+}

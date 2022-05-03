@@ -1,0 +1,52 @@
+.personalbox {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F66E6E;
+    box-sizing: border-box;
+}
+
+.personalbox__bigpic  {
+    font-family: 'Lora', sans-serif;
+    margin-top: 32px;
+    line-height: 40px;
+    color: #000000;
+    align-self: flex-start;
+    color: white;
+}
+
+.personalbox__text {
+    margin-top: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 179%;
+    color: white;
+}
+
+.personalbox__image {
+    width: 100vw;
+}
+
+.personalbox__button {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 10px;
+    align-items: center;
+    width: 287px;
+    height: 43px;
+    color: white;
+    background: #000000;
+    border-radius: 27px;
+    font-family: 'Lora';
+    margin-top: 35px;
+    margin-bottom: 54px;
+}
+
+.MultiSvgIcon-root {
+    color: white;
+}

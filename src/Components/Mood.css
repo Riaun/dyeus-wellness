@@ -1,0 +1,53 @@
+.mood{
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, #FFF6FB 0%, #FFFFFF 100%);
+    box-sizing: border-box;
+}
+
+.mood__heading{
+    font-family: 'Lora', sans-serif;
+    margin-top: 32px;
+    line-height: 40px;
+    color: #000000;
+    align-self: flex-start;
+}
+
+.mood__care{
+    margin-top: 38px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 179%;
+}
+
+.mood__button {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 45px;
+    margin-top: 28px;
+    background: linear-gradient(288.62deg, #6E8CF6 42.36%, rgba(110, 213, 246, 0.93) 115.74%);
+    box-shadow: 0px 2px 16px rgba(71, 222, 255, 0.33);
+    border-radius: 70px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.mood__imgContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85vw;
+    margin-top: 30px;
+}
+
+.mood__image {
+    width: 40vw;
+    object-fit: contain;
+}

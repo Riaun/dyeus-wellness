@@ -1,0 +1,13 @@
+.footeritem {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: 'DM Sans';
+    line-height: 28.91px;
+    margin-left: 7px;
+    align-items: center;
+}
+
+.footeritem > p {
+    margin-right: 7px;
+}
